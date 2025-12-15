@@ -15,10 +15,12 @@ export default function HomePage() {
     link: "https://github.com/one-ill-griff/FitLog4.0",
   },
   {
-    title: "Placeholder 1",
-    description: "Coming soon",
-    screenshot: "/screenshots/placeholder1.png",
-    skills: ["React"],
+    title: "Oak Seedling Regeneration & Browsing Analysis",
+    description:
+      "Ecological data analysis comparing oak seedling regeneration, browsing pressure, and recruitment structure across two forest sites using a reproducible Python pipeline.",
+    screenshot: "/screenshots/red_oak_height_by_site.png",
+    skills: ["Python", "pandas", "NumPy", "matplotlib", "seaborn", "Ecology"],
+    link: "https://github.com/one-ill-griff/Oak-Seedling-Data-Analysis",
   },
 ];
 
