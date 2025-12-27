@@ -3,12 +3,18 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+type ProjectLinks = {
+  github?: string;
+  live?: string;
+  docs?: string;
+};
+
 interface ProjectCardProps {
   title: string;
   description: string;
   screenshot: string;
   skills?: string[];
-  link?: string;
+  link?: ProjectLinks; 
 }
 
 export default function ProjectCard({
@@ -44,15 +50,41 @@ export default function ProjectCard({
           </div>
         )}
 
-        {link && (
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 inline-block px-5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 transition shadow-md text-white text-sm"
-          >
-            View Project
-          </a>
+        {(link?.github || link?.live || link?.docs) && (
+          <div className="mt-8 flex flex-wrap gap-3">
+            {link?.github && (
+              <a
+                href={link.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-5 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition shadow-md text-white text-sm border border-white/10"
+              >
+                GitHub
+              </a>
+            )}
+
+            {link?.live && (
+              <a
+                href={link.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 transition shadow-md text-white text-sm"
+              >
+                Live
+              </a>
+            )}
+
+            {link?.docs && (
+              <a
+                href={link.docs}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-5 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition shadow-md text-white text-sm border border-white/10"
+              >
+                Docs
+              </a>
+            )}
+          </div>
         )}
       </div>
 
@@ -61,8 +93,8 @@ export default function ProjectCard({
         <Image
           src={screenshot}
           alt={title}
-          width={384}   // md:w-96 ≈ 384px
-          height={224}  // md:h-56 ≈ 224px
+          width={384}
+          height={224}
           className="rounded-xl shadow-lg object-cover border border-white/10"
         />
       </div>
