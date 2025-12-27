@@ -22,6 +22,16 @@ export default function HomePage() {
     skills: ["Python", "pandas", "NumPy", "matplotlib", "seaborn", "Ecology"],
     link: "https://github.com/one-ill-griff/Oak-Seedling-Data-Analysis",
   },
+  {
+    title: "Invasive Species Sightings API",
+    description: "Cloud-deployed geospatial API for invasive species point sightings. Supports bbox/near/within spatial queries and summary reporting; returns GeoJSON for GIS tooling.",
+    screenshot: "/screenshots/cloud-api-screenshot.png",
+    skills: ["Node.js", "Express", "PostgreSQL", "PostGIS", "GeoJSON", "Render", "Supabase", "Serverless"],
+    link: {
+      github: "https://github.com/one-ill-griff/invasive-sightings-api",
+      live: "https://invasive-sightings-api.onrender.com/"
+    }
+  },
 ];
 
   return (
