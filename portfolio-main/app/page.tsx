@@ -27,7 +27,7 @@ export default function HomePage() {
     },
   },
   {
-    title: "Invasive Species Sightings API",
+    title: "Cloud Geospatial API – Invasive Species Sightings",
     description: "Cloud-deployed geospatial API for invasive species point sightings. Supports bbox/near/within spatial queries and summary reporting; returns GeoJSON for GIS tooling.",
     screenshot: "/screenshots/cloud-api-screenshot.png",
     skills: ["Node.js", "Express", "PostgreSQL", "PostGIS", "GeoJSON", "Render", "Supabase", "Serverless"],
