@@ -10,9 +10,11 @@ export default function HomePage() {
     title: "FitLog",
     description: "Fitness tracking app",
     screenshot: "/screenshots/fitlog-home-screenshot.png",
-    skills: ["Android", "Java", "SQLite", "XML", "UI/UX", "RecyclerView", "LiveData", "ViewModel", "Fragments", 
-      "Intents", "Activities", "Custom Adapters", "Charts", "Graphs", "Animations", "Material Design", "GitHub",],
-    link: "https://github.com/one-ill-griff/FitLog4.0",
+    skills: ["Android", "Java", "SQLite", "XML", "UI/UX", "RecyclerView", "LiveData", "ViewModel", "Fragments",
+      "Intents", "Activities", "Custom Adapters", "Charts", "Graphs", "Animations", "Material Design", "GitHub"],
+    link: {
+      github: "https://github.com/one-ill-griff/FitLog4.0",
+    },
   },
   {
     title: "Oak Seedling Regeneration & Browsing Analysis",
@@ -20,7 +22,9 @@ export default function HomePage() {
       "Ecological data analysis comparing oak seedling regeneration, browsing pressure, and recruitment structure across two forest sites using a reproducible Python pipeline.",
     screenshot: "/screenshots/red_oak_height_by_site.png",
     skills: ["Python", "pandas", "NumPy", "matplotlib", "seaborn", "Ecology"],
-    link: "https://github.com/one-ill-griff/Oak-Seedling-Data-Analysis",
+    link: {
+      github: "https://github.com/one-ill-griff/Oak-Seedling-Data-Analysis",
+    },
   },
   {
     title: "Invasive Species Sightings API",
