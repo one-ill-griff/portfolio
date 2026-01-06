@@ -36,6 +36,26 @@ export default function HomePage() {
       live: "https://invasive-sightings-api.onrender.com/"
     }
   },
+  {
+  title: "Hendricks County Urban Growth (2001–2021)",
+  description:
+    "Geospatial change detection project measuring developed and impervious surface expansion over time in Hendricks County, Indiana using a reproducible analysis pipeline and exported metrics.",
+  screenshot: "/screenshots/hendricks_urban_growth.png",
+  skills: ["Python", "GeoPandas", "Raster/Vector GIS", "Remote Sensing", "Change Detection", "Data Visualization", "GitHub"],
+  link: {
+    github: "https://github.com/one-ill-griff/one-ill-griff-hendricks-urban-growth-nlcd",
+  },
+  },
+  {
+  title: "Calorie Calculator",
+  description:
+    "Interactive dashboard for tracking calories, macros, weight, steps, sleep, and training. Includes trend visualizations, insights, and goal planning using a clean Streamlit UI.",
+  screenshot: "/screenshots/calorie-dashboard.png",
+  skills: ["Python", "Streamlit", "pandas", "Plotly", "Data Visualization", "UX",],
+  link: {
+    github: "https://github.com/one-ill-griff/MaintenanceCalorieEstimator-Data-Driven-",
+  },
+  },
 ];
 
   return (
