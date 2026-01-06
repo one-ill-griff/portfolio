@@ -50,7 +50,7 @@ export default function HomePage() {
   title: "Calorie Calculator",
   description:
     "Interactive dashboard for tracking calories, macros, weight, steps, sleep, and training. Includes trend visualizations, insights, and goal planning using a clean Streamlit UI.",
-  screenshot: "/screenshots/calorie-dashboard.png",
+  screenshot: "/screenshots/dashboard.png",
   skills: ["Python", "Streamlit", "pandas", "Plotly", "Data Visualization", "UX",],
   link: {
     github: "https://github.com/one-ill-griff/MaintenanceCalorieEstimator-Data-Driven-",
