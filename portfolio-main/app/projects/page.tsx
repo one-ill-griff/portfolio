@@ -37,12 +37,18 @@ const projects: Project[] = [
     // no link yet (omit it)
   },
   {
-    title: "Smart Routine Planner",
-    description:
-      "Coming soon. A personal productivity app that learns user habits and intelligently organizes daily tasks using adaptive algorithms.",
-    screenshot: "/screenshots/placeholder2.png",
-    skills: ["Android", "Machine Learning", "UX Design"],
-    // no link yet (omit it)
+  title: "Hendricks County Urban Growth (2001–2021)",
+  description:
+    "Geospatial change detection project measuring developed and impervious surface expansion over time in Hendricks County, Indiana using a reproducible analysis pipeline and exported metrics.",
+  screenshot: "/screenshots/hendricks_urban_growth.png",
+  skills: ["Python", "GeoPandas", "Raster/Vector GIS", "Remote Sensing", "Change Detection", "Data Visualization", "GitHub"],
+  },
+  {
+  title: "Calorie Calculator",
+  description:
+    "Interactive dashboard for tracking calories, macros, weight, steps, sleep, and training. Includes trend visualizations, insights, and goal planning using a clean Streamlit UI.",
+  screenshot: "/screenshots/calorie-dashboard.png",
+  skills: ["Python", "Streamlit", "pandas", "Plotly", "Data Visualization", "UX",],
   },
 ];
 
@@ -72,3 +78,4 @@ export default function ProjectsPage() {
     </section>
   );
 }
+
