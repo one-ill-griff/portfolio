@@ -95,6 +95,7 @@ export default function ProjectCard({
           alt={title}
           width={384}
           height={224}
+          unoptimized
           className="rounded-xl shadow-lg object-cover border border-white/10"
         />
       </div>
