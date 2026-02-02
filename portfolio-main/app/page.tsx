@@ -17,6 +17,16 @@ export default function HomePage() {
     },
   },
   {
+    title: "Municipal Climate Scenario Explorer",
+    description:
+      "Interactive geospatial decision-support tool for exploring climate exposure and social vulnerability by census tract. Scenario engine supports AND/OR logic across metrics and exports planning-ready CSV + GeoJSON outputs.",
+    screenshot: "/screenshots/ui_map_tooltip.png",
+    skills: ["Python", "GeoPandas", "Rasterio", "Streamlit", "Pandas", "Census ACS", "GeoJSON", "Spatial Analysis", "Data Pipeline", "UI/UX", "GitHub",],
+    link: {
+      github: "https://github.com/one-ill-griff/Climate-Vulnerability-Tool",
+    },
+  },
+  {
     title: "Oak Seedling Regeneration & Browsing Analysis",
     description:
       "Ecological data analysis comparing oak seedling regeneration, browsing pressure, and recruitment structure across two forest sites using a reproducible Python pipeline.",
