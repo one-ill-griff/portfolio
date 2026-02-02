@@ -26,7 +26,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href="/screenshots/Griffin_O'Neill_CS_Resume.pdf"
+            href="/screenshots/Griffin O'Neill Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
@@ -38,3 +38,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
