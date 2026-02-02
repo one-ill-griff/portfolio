@@ -20,7 +20,7 @@ export default function HomePage() {
     title: "Municipal Climate Scenario Explorer",
     description:
       "Interactive geospatial decision-support tool for exploring climate exposure and social vulnerability by census tract. Scenario engine supports AND/OR logic across metrics and exports planning-ready CSV + GeoJSON outputs.",
-    screenshot: "/screenshots/ui_map_tooltip.png",
+    screenshot: "/screenshots/ui-map-tooltip.png",
     skills: ["Python", "GeoPandas", "Rasterio", "Streamlit", "Pandas", "Census ACS", "GeoJSON", "Spatial Analysis", "Data Pipeline", "UI/UX", "GitHub",],
     link: {
       github: "https://github.com/one-ill-griff/Climate-Vulnerability-Tool",
